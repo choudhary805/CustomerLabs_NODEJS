@@ -25,7 +25,7 @@
                   Content-Type: application/json
                   {
                     "account_id": "acc_12345",
-                    "url": "https://webhook.abhi.com",
+                    "url": "https://abhi.com",
                     "http_method": "POST",
                     "headers": {
                       "Authorization": "abhi123",
@@ -37,7 +37,7 @@
    (c). Update Destination :- PUT http://localhost:3000/destinations/1
                                  Content-Type: application/json
                          {
-                        "url": "https://new-webhook.abhi.com",
+                        "url": "https://newabhi.com",
                         "http_method": "PUT",
                         "headers": {
                           "Authorization": "abhi123",
