@@ -3,10 +3,10 @@
   (a).
      Content-Type: application/json
      {
-  "email": "user@example.com",
+  "email": "abhi@gmail.com",
   "account_id": "acc_12345",
-  "account_name": "Example Account",
-  "website": "https://example.com"
+  "account_name": "abhi",
+  "website": "https://abhi.com"
     }
 
   (b). GET ACCOUNT :- GET http://localhost:3000/accounts/acc_12345
@@ -14,8 +14,8 @@
   (c). UPDATE ACCOUNT :- PUT http://localhost:3000/accounts/acc_12345
         Content-Type: application/json
         {
-          "account_name": "Updated Account",
-          "website": "https://updated.com"
+          "account_name": "abhi Account",
+          "website": "https://abhi.com"
         }
 
   (d). DELETE ACCOUNT :- DELETE http://localhost:3000/accounts/acc_12345
@@ -25,10 +25,10 @@
                   Content-Type: application/json
                   {
                     "account_id": "acc_12345",
-                    "url": "https://webhook.example.com",
+                    "url": "https://webhook.abhi.com",
                     "http_method": "POST",
                     "headers": {
-                      "Authorization": "Bearer abc123",
+                      "Authorization": "abhi123",
                       "Content-Type": "application/json"
                     }
                   }
@@ -37,10 +37,10 @@
    (c). Update Destination :- PUT http://localhost:3000/destinations/1
                                  Content-Type: application/json
                          {
-                        "url": "https://new-webhook.example.com",
+                        "url": "https://new-webhook.abhi.com",
                         "http_method": "PUT",
                         "headers": {
-                          "Authorization": "Bearer xyz789",
+                          "Authorization": "abhi123",
                           "X-Custom-Header": "value"
                         }
                       }
